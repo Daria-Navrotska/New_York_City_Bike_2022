@@ -6,3 +6,4 @@ numerize == 0.12
 pillow == 11.1.0
 pandas == 2.2.3
 keplergl == 0.3.2
+seaborn == 0.13.2
