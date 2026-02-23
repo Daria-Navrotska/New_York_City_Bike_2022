@@ -13,7 +13,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import io
 import base64
-from keplergl import KeplerGl
 from PIL import Image
 from numerize.numerize import numerize
 import warnings
@@ -277,7 +276,7 @@ elif page == 'Interactive map with aggregation':
     st.header("Interactive map with aggregated bike trips")
 
     # Add the Kepler map (HTML)
-    path_to_html = r"C:\Users\ZenBook\NY_2022_CityBike_Map.html"
+    path_to_html = "NY_2022_CityBike_Map.html"
 
     # Read file and keep in variable
     with open(path_to_html, 'r') as f:
