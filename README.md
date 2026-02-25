@@ -1,4 +1,4 @@
-# New York’s City Bike 2022 — creating strategic dashboard with Python
+# New York’s Citi Bike 2022 — creating strategic dashboard with Python
 
 ### **Project Overview**
 This project aims to analyze CitiBike’s 2022 ridership to enhance bike access, streamline fleet operations, and uncover opportunities for network expansion in New York City.
@@ -8,7 +8,7 @@ The dashboard developed from this analysis expected to support the business stra
 ---
 
 ### **Objective**
-The main objective is to perform a **descriptive analysis** of City Bike’s 2022 data and generate **actionable insights** about:
+The main objective is to perform a **descriptive analysis** of Citi Bike’s 2022 data and generate **actionable insights** about:
 - Where and when bike shortages or surpluses occur.
 - Which stations experience the highest demand.
 - How seasonality and weather affect bike usage.
@@ -19,14 +19,14 @@ The insights derived used for **interactive strategic dashboard**, designed to c
 ---
 
 ### **Data Context**
-Since its launch in 2013, City Bike has grown into New York City’s largest bike-sharing program and one of the biggest worldwide.  
+Since its launch in 2013, Citi Bike has grown into New York City’s largest bike-sharing program and one of the biggest worldwide.  
 Rising demand—especially since the COVID-19 pandemic—has exposed weaknesses in station capacity and bike distribution. Stations in busy commuter areas often run out of bikes, while others remain full, preventing returns.  
 This project investigates the causes of such imbalances and provides data-backed recommendations to improve operational efficiency and customer satisfaction.
 
 ---
 
 ### **Data Sources**
-1. **City Bike System Data (2022)**  
+1. **Citi Bike System Data (2022)**  
    Open-source monthly trip data from:  
    [https://s3.amazonaws.com/tripdata/index.html](https://s3.amazonaws.com/tripdata/index.html)  
    Includes start and end times, station names, locations, and bike types.
@@ -52,14 +52,14 @@ This project investigates the causes of such imbalances and provides data-backed
 ### **Project Workflow**
 #### **1. Project Planning**
 - Formulated analytical questions to guide dashboard development:
- - Which stations attract the highest ridership in the city?
- - During which months is trip activity at its peak? Does the weather influence travel patterns?
- - What are the most common station-to-station routes?
- - How evenly are stations spread across the network?
+- Which stations attract the highest ridership in the city?
+- During which months is trip activity at its peak? Does the weather influence travel patterns?
+- What are the most common station-to-station routes?
+- How evenly are stations spread across the network?
 - Designed a visualization plan pairing each question with an appropriate chart or map.
 
 #### **2. Data Sourcing and Preparation**
-- Downloaded City Bike 2022 trip data and sourced daily weather data from NOAA’s API.
+- Downloaded Citi Bike 2022 trip data and sourced daily weather data from NOAA’s API.
 - Used **list comprehension** and **generators** to efficiently read and combine multiple monthly CSV files.
 - Cleaned datasets, standardized date formats, and merged the trip and weather data for combined analysis.
 
