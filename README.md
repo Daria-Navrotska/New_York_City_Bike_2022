@@ -76,18 +76,19 @@ This project investigates the causes of such imbalances and provides data-backed
   - Seasonal Patterns  
   - Weather Impact  
   - Station Distribution  
-- The final dashboard will include an introduction, individual graph sections, and a recommendation page.
+  - The final dashboard include an introduction, individual graph sections, and a recommendation page.
 
 ---
 
-### **Deliverables**
-- A **Streamlit dashboard** presenting insights interactively.  
-- A **recommendations summary** highlighting strategies for improving bike distribution and planning new stations.
-
----
-
-### **Expected Outcomes**
+### **Outcomes**
 - Clear identification of high-demand stations and routes.  
 - Evidence of seasonal and weather-driven variations in trip volume.  
 - A visual representation of station density and gaps across New York City.  
 - Actionable recommendations to support management’s strategic decisions.
+
+---
+
+### **Deliverables**
+- A **Streamlit dashboard** presenting insights interactively – https://new-york-citi-bike-2022-dashboard.streamlit.app/  
+- A **recommendations summary** highlighting strategies for improving bike distribution and planning new stations - https://share.vidyard.com/watch/1e3J4ggaPqn8eUq59r6PGE 
+
